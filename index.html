@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Find Me</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Find Me</h1>
+			<p class="description">
+				Discover user information by entering the user ID below.
+			</p>
+			<div class="search-container">
+				<label for="userId">Enter User ID:</label>
+				<input type="number" id="userId" placeholder="User ID" />
+				<button onclick="fetchUserData()">Find</button>
+			</div>
+
+			<div id="userData" class="user-data"></div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
